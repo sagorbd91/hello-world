@@ -70,12 +70,14 @@ print(product_sales)
 #------------------------------------------
 
 # list of dictionaries using zip function using 2 lists
-
+# 2 list converted into list of dictionaries
 color_name = ['red', 'maroon', 'yellow']
 color_code = ['#0090', '#6887', '#6789']
 name_with_code = [{'color_name': f, 'color_code': c} for f, c in zip(color_name, color_code)]
 #name_with_code = [{f,c} for f,c in zip(color_name,color_code)]
 print(name_with_code)
+
+##########################################
 
 
 
