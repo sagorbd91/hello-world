@@ -31,6 +31,9 @@ for num in my_nums:
 
 my_nums = (x*x for x in [1,2,3,4,5])
 print(my_nums)  # it will create a generator
+print(type(my_nums))
+print(list(my_nums))
+print(type(my_nums))
 
 for num in my_nums:
     print(num)
